@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Short URL Tracker</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <h4 th:text="${message}" ></h4>
+    <a th:text="${url}" th:attr="href=${url}"></a>
+</body>
+</html>
